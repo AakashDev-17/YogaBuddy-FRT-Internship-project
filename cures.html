@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- ====== BOOTSTRAP ====== -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+   <!-- FONT AWESOME -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- STYLE -->
+   <link rel="stylesheet" href="./styles/index.css">
+   <title>YogaBuddy</title>
+</head>
+<body>
+   
+   <!-- ===== NAVBAR ===== -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="./index.html">YogaBuddy <i class="fas fa-running"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./poses.html">All Poses</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Cures <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pranayama.html">Pranayama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+   <!-- ======= CAROUSEL ======= -->
+   <div class="carouselOuter">
+     <div class="carouselCover cure">
+       <h1>Yoga Cures</h1>
+       <p>making you healthy from inside</p>
+     </div>
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/cures/pic1.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <!-- ====== GRID ====== -->
+   <br class="container _grids">
+
+    <h1 class="mb-4 cureHeading text-center">Acidity</h1>
+    <!-- ------------------1-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/acidity/parsvottanasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Parsvottanasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/acidity/Revolved-Triangle-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Revolved-Triangle-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/acidity/Supta-Baddha-Konasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Supta-Baddha-Konasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/acidity/triangle-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Triangle-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/acidity/Warrior1Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Warrior1 Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/acidity/ardha-matsendrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Ardha-Matsendrasana</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Anxiety</h1>
+    <!-- ------------------2-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/bow-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bow-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/bridge-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/cat.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Cat-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/downward-facing-dog.jpeg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Downward facing dog</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/janu-sirsasana-head-to-knee-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Janu-sirsasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/FishPose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Fish-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/Hasta-Padasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Hasta-Padasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/paschimotanasana.jpeg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Paschimotanasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/anxiety/Sisasana-Headstand.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Sirsasana</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Arthritis</h1>
+    <!-- ------------------3-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/arthritis/bridge.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/arthritis/Cat-Cow-Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Cat-Cow-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/arthritis/child-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Child-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/arthritis/crescent.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Crescent-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/arthritis/pelvic-tilt.gif" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Pelvic-Tilt</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/arthritis/supine-twisting.gif" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Supine-twisting</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Asthma</h1>
+    <!-- ------------------4-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/bridge-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/Butterfly-Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Butterfly-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/cobra-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Cobra-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/corpse-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Corpse-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/downward-facing-dog.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>downward-facing-dog</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/Half-spinal-twist-Ardha-matsyendrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Ardha-matsyendrasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/Kapalbhati-Pranayama.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Kapalbhati-Pranayama</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/nadi-shodhana.png" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Nadi-shodhana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/asthma/pavanmuktasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Pavanmuktasana</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Back Pain</h1>
+    <!-- ------------------5-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/back/Cat-Cow.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Cat-Cow-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/back/cobra-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Cobra-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/back/downward-facing-dog.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Downward facing dog</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/back/extended-triangle.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Extended-triangle-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/back/Locust-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Locust-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/back/Two-Knee-Spinal-Twist.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Two Knee Spinal Twist</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Blood Pressure</h1>
+    <!-- ------------------6-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/Butterfly-Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Butterfly-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/child-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Child-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/Corpse-Pose-Savasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Savasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/easy_pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Easy-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/half-plow-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Half plow-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/Half-spinal-twist-Ardha-matsyendrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Ardha-matsyendrasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/hero-pose-virasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Virasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/JanuSirsasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>JanuSirsasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/blood/vajrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Vajrasana</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Cervical</h1>
+    <!-- ------------------7-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cervical/Warrior-2.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Warrior-2</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cervical/TheThreadtheNeedlePose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Thread the Needle Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cervical/standing-forward-bend.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Standing-forward-bend</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cervical/cow-face-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Cow-face-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cervical/Corpse-Pose-SAVASANA.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Corpse-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cervical/Half-Lord-of-the-Fishes-Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Half Lord of the Fishes-Pose</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Cholesterol</h1>
+    <!-- ------------------8-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cholesterol/ardha-matsyendrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Ardha-matsyendrasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cholesterol/chakrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Chakrasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cholesterol/kapalbhati.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Kapalbhati</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cholesterol/paschimottanasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Paschimottanasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cholesterol/SALABHASANA.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Salabhasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/cholesterol/sarvangasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Sarvangasana</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Diabetes</h1>
+    <!-- ------------------9-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/diabetes/bridge-pose.png" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/diabetes/child-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Child-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/diabetes/Corpse_Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Corpse-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/diabetes/Downward-Facing-Dog.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Downward-Facing-Dog</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/diabetes/mountain.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Mountain-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/diabetes/Plank.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Plank-pose</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Heart Diseases</h1>
+    <!-- ------------------10-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/heart/gomukhasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Gomukhasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/heart/ardh-matsendra.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Ardh-matsendra</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/heart/bridge-pose.png" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/heart/extended-triangle-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Extended Triangle pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/heart/paschimottanasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Paschimottanasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/heart/tree-yoga-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Tree-pose</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Kidney Diseases</h1>
+    <!-- ------------------11-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/bhujangasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bhujangasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/ardha-matsendrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Ardh-matsendrasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/gowmukhasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Gowmukhasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/mandukasana-frog.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Mandukasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/naukasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Naukasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/PAWANMUKTASANA.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Pawanmuktasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/Vakrasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Vakrasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/Uttanpadasana-Raised-leg-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Uttanpadasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/kidney/shashankasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Shashankasana</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Migraine</h1>
+    <!-- ------------------12-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/migraine/bridge-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/migraine/child-pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Child-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/migraine/corpse-pose.png" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Corpse-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/migraine/hastapadasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Hastapadasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/migraine/pashimottanasan.jpeg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Paschimottanasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/migraine/Padmasana-Lotus-Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Lotus-pose</p>
+      </div>
+    </div>
+
+
+    <h1 class="mb-4 cureHeading text-center">Thyroid</h1>
+    <!-- ------------------13-------------------->
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/thyroid/bhujangasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bhujangasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/thyroid/Bow-Pose.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bow-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/thyroid/Bridge.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Bridge-Pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/thyroid/camel.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Camel-pose</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/thyroid/halasana.webp" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Halasana</p>
+      </div>
+      <div class="col-sm-12 col-md-4 pics mb-5 text-center">
+        <img src="./assets/cures/thyroid/sarvangasana.jpg" style="width: 300px; height: 200px;" class="img-thumbnail shadow-sm mb-3 bg-white rounded" alt="...">
+        <p>Sarvangasana</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- -------------------------------------->
+  
+
+  <!-- ======= FOOTER ====== -->
+
+  <!-- Footer -->
+<footer class="page-footer font-small bg-dark darken-3 text-white">
+
+   <!-- Footer Elements -->
+   <div class="container">
+ 
+     <!-- Grid row-->
+     <div class="row">
+ 
+       <!-- Grid column -->
+       <div class="col-md-12 py-5">
+         <div class="mb-3 d-flex justify-content-center">
+ 
+           <!-- Facebook -->
+           <a class="fb-ic">
+             <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+           </a>
+           <!-- Twitter -->
+           <a class="tw-ic">
+             <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+           </a>
+           <!-- Google +-->
+           <a class="gplus-ic">
+             <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+           </a>
+           <!--Linkedin -->
+           <a class="li-ic">
+             <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+           </a>
+           <!--Instagram-->
+           <a class="ins-ic">
+             <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+           </a>
+           <!--Pinterest-->
+           <a class="pin-ic">
+             <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+           </a>
+         </div>
+       </div>
+       <!-- Grid column -->
+ 
+     </div>
+     <!-- Grid row-->
+ 
+   </div>
+   <!-- Footer Elements -->
+ 
+   <!-- Copyright -->
+   <div class="footer-copyright text-center py-3">© 2021 Copyright:
+     <a class="pl-1" href="#"> YogaBuddy.in</a>
+   </div>
+   <!-- Copyright -->
+ 
+ </footer>
+
+
+</body>
+</html>

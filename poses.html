@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- ====== BOOTSTRAP ====== -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+   <!-- FONT AWESOME -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- STYLE -->
+   <link rel="stylesheet" href="./styles/index.css">
+   <title>YogaBuddy</title>
+</head>
+<body>
+   
+   <!-- ===== NAVBAR ===== -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="./index.html">YogaBuddy <i class="fas fa-running"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">All Poses <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cures.html">Cures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pranayama.html">Pranayama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+   <!-- ======= CAROUSEL ======= -->
+   <div class="carouselOuter">
+     <div class="carouselCover poses">
+       <h1>Yoga Poses</h1>
+       <p>helps you live life with perfection & happiness</p>
+     </div>
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/poses/poses-banner.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <!-- ====== GRID ====== -->
+   <div class="container _grids">
+
+    <!-- ------------------1-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">1) Tadasana or mountain pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/tadasana.webp" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Stand with your feet together. Tighten the knees, keep the navel drawn into the spine with a neutral pelvis, and chest lifted but with shoulders relaxed and pressed down away from the ears.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Increases Height</li>
+           <li>Boosts Mental Awareness</li>
+           <li>Promotes Weight Loss</li>
+           <li>Improves Your Posture.</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------2-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">2) Uttanasana or intense forward stretch</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/uttanasana.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Start from Tadasana and inhale while stretching the hands up and exhale reaching down with your hands. Try to press down with your palms.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>It maintains the functions of liver, kidneys and spleen.</li>
+           <li>Beneficial in flexibility of the hips.</li>
+           <li>Gives Strengths to the knees and spine also.</li>
+           <li>It improves the process of blood circulation.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ------------------3-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">3) Adhomukha Svanasana or downward-facing dog stretch</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/Downward-Facing-Dog.png" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Lie down on the floor on your stomach and face downward. Place the palms next to the chest. Exhaling, raise your trunk from the floor. Straighten the arms, move the head inward towards the feet and extend the back, trying to press the heels firmly into the ground keeping the knees straight making an inverted ‘V’ with the body.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Stretches the lower and lower body.</li>
+           <li>Stimulates blood flow.</li>
+           <li>Fine-tunes your foot muscles.</li>
+           <li>Improves posture.</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------4-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">4) Urdhvamukha svanasana or upward-facing dog stretch</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/upward-facing-dog.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Lie on the floor with face downward and toes pointed. Inhale raising the head and trunk and stretch the arms completely. Push the head and trunk as far back as possible, without resting the knees on the floor.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Opens the chest.</li>
+           <li>Stimulates the abdominal muscles.</li>
+           <li>Strengthens back muscles.</li>
+           <li>Stretches wrists and tones arm muscles.</li>
+        </ol>
+      </div>
+    </div>
+
+    
+    <!-- ------------------5-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">5) Utthita Trikonasana or extended triangle pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/trikonasana.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Stand in Tadasana pose. Keep your feet around three feet apart and turning the right foot to 90 degrees, turn the left foot slightly to the right, raising the arms sideways. Bend to your right, bringing the right palm towards the right ankle keeping both legs absolutely straight. Repeat on the other side.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Activates your core muscles, which aids in balance and stability.</li>
+           <li>Stretches and lengthens the spine.</li>
+           <li>Opens the hips and shoulders.</li>
+           <li>Stimulates your organs.</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------6-------------------->
+    
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">6) Utthita parsvakonasana or extended side stretch</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/extended-side-angle.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Stand in Tadasana pose. Keep your feet around four feet apart. Stretch the hands sideways, bend the right knee at a 90-degree angle, not pushing the knee beyond the ankle. And while exhaling, place the right palm on the ground outside the right foot and stretch the left arm in a diagonal line over the left ear. Repeat on the other side.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Strengthens and stretches the legs, hips, and hamstrings.</li>
+           <li>Opens the chest and shoulders.</li>
+           <li>Reduce stiffness in your shoulders or back.</li>
+           <li>Abdominal muscles soothes improving digestion.</li>
+        </ol>
+      </div>
+    </div>
+
+    
+    <!-- ------------------7-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">7) Virabhadrasana 1 or the first warrior pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/v1.webp" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Stand in Tadasana pose. Keep your feet around four feet apart. Bend the right knee above the right ankle and not beyond it. Keep the left leg stretched. Extend your hands up in a namaskar, stretching the spine up. The face, chest and right knee should face the same way as the right foot. Repeat on the other side.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Lifting your torso and arms helps build strength in arms, shoulders, and back.</li>
+           <li>Strengthens biceps and triceps.</li>
+           <li>Helps open and create strength and stability in the shoulder joints.</li>
+           <li>Strengthens the posterior chain (back muscles, butt, hamstrings).</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------8-------------------->
+    
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">8) Virabhadrasana 2 or the second warrior pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/v2.jpeg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">From Tadasana pose, keep the feet around 4 to 4 1/2 feet wide. Bend the right knee above the right ankle, keep the left leg straight. Stretch the hands straight in two opposite directions. Turn your face to the right and gaze at the right palm. Repeat on the other side.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Stretches your hips, groins and shoulders.</li>
+           <li>Opens your chest and lungs.</li>
+           <li>Stimulates your abdominal organs.</li>
+           <li>Develops balance and stability.</li>
+           <li>Improves circulation and respiration.</li>
+        </ol>
+      </div>
+    </div>
+
+    
+    <!-- ------------------9-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">9) Utkatasana or the fierce pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/chair-pose-or-utkatasana.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Stand in Tadasana pose, stretch your palms straight over your head. Join the palms, exhaling bend your knees and lower your trunk till your thighs are roughly parallel to the floor.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Strengthens the lower body while stretching the upper back.</li>
+           <li>Strengthens biceps and triceps.</li>
+           <li>Helps open and create strength and stability in the shoulder joints.</li>
+           <li>Tones abdomen and outer hips (gluteus medius and minimus).</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------10-------------------->
+    
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">10) Dandasana or staff pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/dandasana.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Sit on the ground with your legs straight ahead of you. Keep them straight without hyper-extending the backs of your knees. Keep the chest lifted, shoulders relaxed. Place your palms next to your hips.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Helps improve posture.</li>
+           <li>Lengthens and stretches the spine.</li>
+           <li>Nourishes your body's resistance to back and hip injuries.</li>
+           <li>Good for those suffering from asthma.</li>
+        </ol>
+      </div>
+    </div>
+
+    
+    <!-- ------------------11-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">11) Paschimottanasana or intense back stretch</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/paschimottan.jpeg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">From the Dandasana pose, stretch the hands forward and grab your toes, stretch the spine forward reaching towards the legs with your head. Try to stretch the spine from the buttocks.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Improves the alignment of the vertebral column.</li>
+           <li>Helps as a therapy for diabetic patients, patients with weak liver and kidney.</li>
+           <li>Benefits women during menstrual disorders.</li>
+           <li>Stimulates Digestion and Appetite</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------12-------------------->
+    
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">12) Janu Sirsasana or head-on-knee pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/janu.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">From Dandasana, bend the right knee, placing the right foot near the perineum. Stretch the hands up, reach forward and hold the toes of the left foot. Try extending the spine from the buttocks to the back of the neck – lengthening the spine.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>It calms the brain and eliminates mild depression.</li>
+           <li>Stimulates the kidneys and liver.</li>
+           <li>Reduces pain in the waist and legs.</li>
+           <li>Improves digestion.</li>
+        </ol>
+      </div>
+    </div>
+
+    
+    <!-- ------------------13-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">13) Baddhakonasana or bound angle pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/baddha-konasana.webp" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">From Dandasana, bend the knees and bring the feet together towards the pelvis. Use your hands to grab your feet and try pushing both your knees down by pressing your thighs firmly down on the floor.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Strengthens and improves flexibility in the inner thighs, groins and the knees.</li>
+           <li>Helps prepare the hips and groins for meditative seated poses, which require more flexibility in these areas.</li>
+           <li>Helps to sooth menstrual discomfort and digestive complaints.</li>
+        </ol>
+      </div>
+    </div>
+    
+    <!-- ------------------14-------------------->
+    
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">14) Marichyasana 3</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/marichyasana-III-pose.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">From the Dandasana pose, bend the right knee and press the foot on the floor in line with the right hip. Extend the left arm and wrap it around the right knee, keeping the right hip pressed down, twist and try grabbing the right hand from behind.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Broadens the hip creases.</li>
+           <li>Reduces the stress and physical strain, and rejuvenates the body.</li>
+           <li>Softens the back and neck area.</li>
+           <li>Improves the digestion system and metabolism.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!--------------------15-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">15) Sarvangasana or the shoulder stand</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/sarvangasana.webp" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Lie down on the floor on your back. Lift the legs straight up and supporting the hips, keeping the elbows inward try to straighten the legs up towards the ceiling. Eventually the chest should be pressed into the chin. The body weight should be extending upwards not falling into the neck and shoulders, if it feels uncomfortable, do the pose while resting against the wall.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>It adds strength and flexibility to the neck, shoulder and back.</li>
+           <li>Helps relieve the symptoms of menopause.</li>
+           <li>It improves balance.</li>
+           <li>Reduces fatigue and alleviates insomnia.</li>
+        </ol>
+      </div>
+    </div>
+    
+   <!--------------------16-------------------->
+    
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-2"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-1">16) Halasana or plough pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-1 pics mb-5">
+        <img src="./assets/poses/halasana.webp" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">From Sarvangasana pose, bring the legs down till the toes touch the ground behind you. Interlock the fingers, keep the hips lifted, stretch the arms away from the armpits and extend the legs from the buttocks to the heels.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Improves Digestive System.</li>
+           <li>Helps To Manage Diabetes.</li>
+           <li>Stimulates Thyroid Glands.</li>
+           <li>Therapeutic for Leg Cramps.</li>
+        </ol>
+      </div>
+    </div>
+
+   <!--------------------17-------------------->
+
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-sm-1 order-md-1"></div>
+      <h2 class="col-sm-12 col-md-6 order-sm-2 order-md-2">17) Savasana or corpse pose</h2>
+    </div>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 order-md-1 order-sm-1 pics mb-5">
+        <img src="./assets/poses/savasana.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col-sm-12 col-md-6 order-md-2 order-sm-2 picContent mb-5">
+        <h4 class="allpose-heading">Process:</h4>
+        <p class="allpose-para mb-2">Lie down on the floor like a corpse – completely relaxed and on your back. Keep your legs apart and hands away from your body with the palms facing upwards. Shut your eyes and concentrate on relaxing each and every muscle in your body.</p>
+        <h4 class="allpose-heading">Benefits:</h4>
+        <ol>
+           <li>Calms the mind and reduces stress.</li>
+           <li>Reduces headache, fatigue and anxiety.</li>
+           <li>Helps lower blood pressure.</li>
+           <li>Calms central nervous system, aiding the digestive and immune systems.</li>
+        </ol>
+      </div>
+    </div>
+
+
+  </div>
+   <!------------------------------------------>
+  
+
+  <!-- ======= FOOTER ====== -->
+
+  <!-- Footer -->
+<footer class="page-footer font-small bg-dark darken-3 text-white">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5">
+        <div class="mb-3 d-flex justify-content-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a class="pl-1" href="#"> YogaBuddy.in</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+
+</body>
+</html>
