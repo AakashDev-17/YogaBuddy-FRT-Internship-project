@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Lato:wght@300;700;900&family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;600;700&family=Russo+One&display=swap');
+
+:root {
+   --font-1: 'Lato', sans-serif;
+   --font-2: 'Montserrat', sans-serif;
+   --font-3: 'Russo One', sans-serif;
+   --font-4: 'Merriweather', serif;
+   --font-5: 'Caveat', cursive;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.carouselOuter {
+   position: relative;
+}
+
+.carouselOuter .carouselCover {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 100;
+   background: linear-gradient(rgba(0,0,0,0.3), rgba(255, 166, 0, 0.623));
+   padding: 5rem 2rem 0 2rem;
+   color: #fff;
+   font-family: var(--font-3);
+   font-weight: bold;
+   overflow: hidden;
+}
+.carouselOuter .carouselCover.poses {
+   background: linear-gradient(orange, rgba(255, 145, 0, 0.3), rgba(0, 217, 255, 0.623));
+}
+.carouselOuter .carouselCover.cure {
+   background: linear-gradient(rgb(255, 208, 0), rgba(255, 145, 0, 0.3), rgba(255, 0, 119, 0.623));
+}
+
+.carouselOuter .carouselCover h1 {
+   font-size: 5rem;
+   letter-spacing: 3px;
+   text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.carouselOuter .carouselCover p {
+   font-family: var(--font-1);
+   font-size: 1.5rem;
+   letter-spacing: 2px;
+   padding-left: 1rem;
+   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.navbar {
+   background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+._grids {
+   width: 100vw;
+   overflow-x: hidden;
+   margin-top: 3rem;
+}
+
+._grids .picContent {
+   font-family: var(--font-5);
+   font-size: 2rem;
+}
+
+._grids .picContent .allpose-heading {
+   font-family: serif;
+   text-decoration: underline;
+}
+
+._grids .picContent .allpose-para {
+   font-size: 1.7rem;
+}
+
+._grids .picContent ol {
+   font-family: var(--font-5);
+   font-size: 1.7rem;
+   margin-left: 1rem;
+}
+
+
+/* =========== footer ============ */
+
+.page-footer a {
+   text-decoration: none;
+   color: #ccc;
+}
+
+.page-footer a i {
+   font-size: 2rem;
+}
