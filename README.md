@@ -9,3 +9,6 @@ For making this website, I have used the following Azure services:
 2) Azure Storage Account:- I used this service to store HTML file, CSS file and all the asset(images) and to host my website online.
 3) QnA Maker:- I used this service to make knowledge base for my BOT.
 4) Azure Bot Service:- I used this service to make a friendly bot that will use my knowledge base to provide best possible answer for every question asked.
+
+
+**Deployed using Azure Storage Account (Static Website)**
