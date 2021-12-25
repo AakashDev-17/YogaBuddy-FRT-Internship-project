@@ -12,3 +12,5 @@ For making this website, I have used the following Azure services:
 
 
 **Deployed using Azure Storage Account (Static Website)**
+
+Project Website URL : [https://yogabuddy.z29.web.core.windows.net/](https://yogabuddy.z29.web.core.windows.net/)
