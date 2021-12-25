@@ -43,6 +43,9 @@ html {
 .carouselOuter .carouselCover.cure {
    background: linear-gradient(rgb(255, 208, 0), rgba(255, 145, 0, 0.3), rgba(255, 0, 119, 0.623));
 }
+.carouselOuter .carouselCover.qna {
+   background: linear-gradient(rgba(255, 208, 0, 0), rgba(255, 196, 0, 0.3), rgba(68, 230, 103, 0.623));
+}
 
 .carouselOuter .carouselCover h1 {
    font-size: 5rem;
