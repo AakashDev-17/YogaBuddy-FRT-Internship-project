@@ -2,7 +2,7 @@
 
 **Problem Statement:**
 
-In today's scenario, most of us are doing our work from home, which agerlly affects our health, and causes many problem and makes us unfit. So to help us in this situation there should be a website that should contain solution to all the health related problem using YOGA and PRANAYAMAS.
+In today's scenario, most of us are doing our work from home, which eagerly affects our health, and causes many problem and makes us unfit. So to help us in this situation there should be a website that should contain solution to all the health related problem using YOGA and PRANAYAMAS.
 So, in this project I have designed a website named "YogaBuddy" that provide solution to day to day health related issues using Yoga asanas and Pranayamas.
 
 
