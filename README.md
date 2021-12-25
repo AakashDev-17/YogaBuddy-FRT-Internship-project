@@ -2,7 +2,7 @@
 
 **Project Description:**
 
-The website provides carefully picked yoga asanas and pranayamas for health problems which can be practiced by all age group to get relief from pain and maintain a healthy life. There is a section of QnA also that is actually a BOT
+The website provides carefully picked yoga asanas and pranayamas for health problems which can be practiced by all age group to get relief from pain and maintain a healthy life. There is a section of QnA also that is actually a BOT, which will help to communicate more easily.
 
 For making this website, I have used the following Azure services:
 1) Visual Studio Code:- I used this editor to make the HTML and CSS file.
